@@ -1,12 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="src/output.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="list-none flex justify-around pt-7 gap mr-10">
+        <img src="img/logo2x (1).png" alt="" class="object-cover" />
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          HOME
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          SHOP
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          CATEGORY
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          FAQ
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          BLOG
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          ABOUT
+        </li>
+        <li
+          class="relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-top-1 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full transition-transform duration-200 hover:-translate-y-1"
+        >
+          CONTACT
+        </li>
+        <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+        <div class="relative inline-block">
+          <i class="fa-regular fa-heart text-2xl"></i>
+          <span
+            class="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 bg-red-500 text-white text-xs font-bold rounded-full"
+          >
+            3
+          </span>
+        </div>
+        <button
+          class="border border-black border-4 w-[100px] cursor-pointer font-bold hover:bg-green-400 transition-[1s] hover:text-teal-50"
+        >
+          <i class="fa-brands fa-shopify text-2xl"></i>BUY
+        </button>
+        <button class="block md:hidden">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+      </ul>
+    </nav>
+    <main>
+      <section
+        class="w-[100%] h-[70px] bg-amber-500 text-2xl flex items-center gap-3 pl-10 mt-5"
+      >
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-angles-right"></i>
+        <h5>ABOUT</h5>
+      </section>
+      <section class="flex justify-around pt-6">
+        <div class="w-[550px] h-[550px]">
+          <h1 class="pl-4 text-black-50 text-2xl">About us</h1>
+          <p class="pl-4 text-black text-2xl">
+            Perfume is a mixture of fragrant essential oils or aroma compounds,
+            fixatives and solvents, usually in liquid form, used to give the
+            human body, animals, food, objects, and living-spaces an agreeable
+            scent. The 1939 Nobel Laureate for Chemistry, Leopold Ružička stated
+            in 1945 that "right from the earliest days of scientific chemistry
+            up to the present time perfumes have substantially contributed to
+            the development of organic chemistry as regards methods, systematic
+            classification, and theory."
+          </p>
+          <p class="pl-4 text-2xl">
+            Ancient texts and archaeological excavations show the use of
+            perfumes in some of the earliest human civilizations. Modern
+            perfumery began in the late 19th century with the commercial
+            synthesis of aroma compounds such as vanillin or coumarin, which
+            allowed for the composition of perfumes with smells previously
+            unattainable solely from natural aromatics.
+          </p>
+        </div>
+        <div class="overflow-hidden">
+          <img src="img/img8.jpg" alt="" width="80%" class="hover:scale-110 transition-[1s]" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
